@@ -1,0 +1,9 @@
+{
+    "name": "Prueba uno para NFC",
+    "package_path" : "https://hectorfhurtado.github.io/nfc_prueba_uno/package.zip",
+    "version": "1",
+    "developer": {
+        "name": "Héctor Hurtado",
+        "url": "https://github.com/hectorfhurtado/nfc_prueba_uno"
+    }
+}
