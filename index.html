@@ -6,10 +6,10 @@
       var manifestUrl = 'https://hectorfhurtado.github.io/nfc_prueba_uno/manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
-        alert(this.result.origin);
+        alert( 'Todo salió bien: ' + this.result.origin);
       };
       req.onerror = function() {
-        alert(this.error.name);
+        alert('Algo salió mal: ' + this.error.name);
       };
     </script>
   </body>
